@@ -1,0 +1,93 @@
+body{
+    background-color:pink;
+}
+
+#heart-cat{
+    width: 150px;
+    height:300px;
+    float:center;
+    align-self:center;
+    display:none;
+}
+
+#running-cat{
+    height:400px;
+    width:1200px;
+    position: absolute;
+    bottom: 0;
+    left: -800px; /* Initial position off-screen */
+    transition: left 2s ease; 
+}
+
+#happy-cat{
+    display:none;
+}
+#crying-cat{
+    display:none;
+}
+
+#Question{
+    font-weight:bold;
+    font-size:xx-large;
+    float:center;
+    display:block;
+    color:rgb(154, 14, 138);
+}
+#Button-yes{
+    background-color: rgb(97, 200, 97);
+    width:100px;
+    height:100px;
+    font-size:xx-large;
+    border-radius:8px;
+    margin:5px;
+}
+#Button-no{
+    background-color: rgb(200, 97, 104);
+    width:100px;
+    height:100px;
+    border-radius:8px;
+    font-size:xx-large;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.HappyCat-Div{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+.Questions-div{
+    display:none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.love-questions{
+    display:inline-block;
+}
+#button-summon-cat{
+    background-color: rgb(97, 191, 200);
+    max-width:fit-content;
+    height:100px;
+    border-radius:8px;
+    font-size:xx-large;
+    display:block;
+}
+
+#button-hiiiii{
+    background-color: rgb(200, 97, 179);
+    max-width:fit-content;
+    height:100px;
+    border-radius:8px;
+    font-size:xx-large;
+    display:none;
+    z-index: 999; /* Increase the z-index */
+}
